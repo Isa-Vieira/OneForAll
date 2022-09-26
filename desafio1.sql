@@ -4,11 +4,11 @@ CREATE DATABASE SpotifyClone;
 CREATE TABLE SpotifyClone.plano(
 id_plano INT NOT NULL AUTO_INCREMENT,
 plano VARCHAR(100) NOT NULL,
-preço DOUBLE NOT NULL,
+preco DOUBLE NOT NULL,
 PRIMARY KEY (id_plano)
 ) engine = InnoDB;
 
-INSERT INTO SpotifyClone.plano( plano, preço)
+INSERT INTO SpotifyClone.plano( plano, preco)
 VALUES
 ('gratuito', 0.00),
 ('familia', 7.99),
