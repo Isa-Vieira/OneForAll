@@ -75,10 +75,10 @@ CREATE TABLE IF NOT EXISTS SpotifyClone.albums (
 INSERT INTO SpotifyClone.albums(album, id_artista)
 VALUES
 ('Renaissance', 1),
-('Jazz', 2),
 ('Hot Space', 2),
+('Jazz', 2),
 ('Falso Brilhante', 3),
-('Vento de Melo', 3),
+('Vento de Maio', 3),
 ('QVVJFA?', 4),
 ('Somewhere Far Beyond', 5),
 ('I Put A Spell On You', 6);
